@@ -68,12 +68,19 @@ p{
 .project img{
     width: 100%;
 }
+.work-inquiry-part{
+    background-image: url("shapes/footer.png");
+    background-position: center;
+    background-size: 70%;
+    background-repeat: no-repeat;
+}
+
 .footer{
     text-align: center;
     padding: 50px 0;
 }
 .footer p{
-
+    text-align: center;
 }
 .footer h4{
     

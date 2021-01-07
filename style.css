@@ -68,22 +68,52 @@ p{
 .project img{
     width: 100%;
 }
-.work-inquiry-part{
+.work-section{
+    width: 50%;
+    margin: auto;
+    overflow: hidden;
     background-image: url("shapes/footer.png");
-    background-position: center;
-    background-size: 70%;
+    background-size: cover;
     background-repeat: no-repeat;
+    padding: 50px 30px;
+    border-radius: 30px;
+    background-position: center center;
 }
-
+ h4{
+    font-size: 40px;
+    padding: 0;
+    margin: 0;
+}
+.inquary{
+    margin-top: 30px;
+    width: 50%;
+    padding: 0;
+    float: left; 
+}
+.box-let{
+    margin-top: 33px;
+    padding: 0%;
+    text-align: right;
+}
+.let{
+    text-decoration: none;
+    background-position: center;
+    background-image: linear-gradient(45deg, lightSalmon, tomato);
+    padding: 15px 35px;
+    color:black;
+    border-radius: 15px;
+    text-align: center;
+} 
 .footer{
     text-align: center;
     padding: 50px 0;
 }
 .footer p{
+    color: black;
     text-align: center;
 }
 .footer h4{
-    
+    text-align: center;
 }
 .social ul li {
     list-style: none;
